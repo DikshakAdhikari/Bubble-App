@@ -34,7 +34,7 @@ hitButton.addEventListener("click", () => {
         drawCircle(circleX, circleY, circleRadius, circleColor);
         cancelAnimationFrame(animationId);
       } else {
-        requestAnimationFrame(moveArrow);
+        requestAnimationFrame(moveArrow); //hello
       }
     }
   }
